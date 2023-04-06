@@ -16,7 +16,7 @@
     // Mapping the value to a specific student's name 
     //              Key = Value
     $grades = array("Oscar"=>"A+", "Cris"=>"B-", "Camile"=>"C+" );
-    // ? Grabbing the value, accessing the element inside the array
+    // Grabbing the value, accessing the element inside the array
     echo $grades[$_POST["student"]];
   ?>
 </body>
