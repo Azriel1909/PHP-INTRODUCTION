@@ -8,12 +8,12 @@
 </head>
 <body>
   <?php
-  // ! WHILE LOOP: Always check the condition first!! Extremely important
-    $index = 1;
-    while ($index <= 9) {
+  // ! DO WHILE: Reverse order. It executes the loop body first and then check the condition
+    $index = 10;
+    do {
       echo "$index <br>";
       $index++;
-    }
+    } while ($index <= 9);
   ?>
 </body>
 </html>
